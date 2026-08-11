@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SmartSupply · Panel de Abastecimiento</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="board-pin board-pin--tl"></div>
+<div class="board-pin board-pin--tr"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">
+      <img src="imagenes/potato_icon_512.png" alt="Logo">
+    </span>
+  </div>
+
+  <div class="topbar-actions">
+    <div class="status-pill" id="agent-status">
+      <span class="dot dot--idle"></span> Agente en espera
+    </div>
+    <button class="btn btn--brass" id="btn-run-agent">
+      Ejecutar Agente de Compras
+    </button>
+  </div>
+</header>
+
+<main class="layout">
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Tablero de Secciones</h2>
+      <span class="section-sub">Estado en vivo, como un tablero de gobernanta</span>
+    </div>
+
+    <div class="plaque-grid" id="plaque-grid">
+      <!-- Las 4 tarjetas (plaquetas) se inyectan por JS -->
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Bandeja de Órdenes Pendientes</h2>
+      <span class="section-sub">Requieren aprobación humana antes de ejecutarse</span>
+    </div>
+
+    <div class="orders-tray" id="orders-tray">
+      <p class="empty-state">Aún no hay propuestas. Ejecuta el agente para generarlas.</p>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Historial de decisiones</h2>
+      <span class="section-sub">Órdenes ya aprobadas o rechazadas</span>
+    </div>
+    <div class="orders-tray orders-tray--history" id="orders-history">
+      <p class="empty-state">Sin decisiones registradas todavía.</p>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Bitácora de trazabilidad</h2>
+      <span class="section-sub">Cada acción y razonamiento del agente, en orden</span>
+    </div>
+    <div class="ledger" id="ledger">
+      <p class="empty-state">Sin registros todavía.</p>
+    </div>
+  </section>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
