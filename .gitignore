@@ -1,6 +1,6 @@
-backend/.env
-backend/__pycache__/
-backend/data/ordenes.json
-backend/logs/
+__pycache__/
 *.pyc
-.DS_Store
+.env
+backend/.env
+venv/
+backend/venv/
