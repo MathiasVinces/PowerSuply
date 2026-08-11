@@ -38,7 +38,7 @@ load_dotenv()
 # 2. Ahora sí, os.getenv encontrará las variables sin problema
 MODEL = "llama-3.3-70b-versatile"
 client = OpenAI(
-    api_key="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",
+    api_key="OPENAI_API_KEY",
     base_url="https://api.groq.com/openai/v1"
 )
 
