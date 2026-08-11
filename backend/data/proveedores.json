@@ -1,0 +1,55 @@
+{
+  "Toallas de baño": [
+    {"proveedor": "Textiles Andinos", "precio_unitario": 6.5, "tiempo_entrega_dias": 3},
+    {"proveedor": "HotelSupply EC", "precio_unitario": 7.2, "tiempo_entrega_dias": 1}
+  ],
+  "Sábanas juego queen": [
+    {"proveedor": "Textiles Andinos", "precio_unitario": 18.0, "tiempo_entrega_dias": 3},
+    {"proveedor": "HotelSupply EC", "precio_unitario": 19.5, "tiempo_entrega_dias": 1}
+  ],
+  "Perchas": [
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 0.6, "tiempo_entrega_dias": 2}
+  ],
+  "Kit amenities (shampoo/jabón)": [
+    {"proveedor": "HotelSupply EC", "precio_unitario": 1.1, "tiempo_entrega_dias": 1},
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 0.95, "tiempo_entrega_dias": 4}
+  ],
+  "Detergente lavavajillas": [
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 3.2, "tiempo_entrega_dias": 2}
+  ],
+  "Bolsas de basura 50L": [
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 4.5, "tiempo_entrega_dias": 2},
+    {"proveedor": "EcoLimpieza", "precio_unitario": 4.1, "tiempo_entrega_dias": 3}
+  ],
+  "Café en grano": [
+    {"proveedor": "Tostadores del Valle", "precio_unitario": 9.0, "tiempo_entrega_dias": 2}
+  ],
+  "Servilletas": [
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 1.3, "tiempo_entrega_dias": 2}
+  ],
+  "Papel higiénico": [
+    {"proveedor": "EcoLimpieza", "precio_unitario": 0.45, "tiempo_entrega_dias": 3},
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 0.5, "tiempo_entrega_dias": 2}
+  ],
+  "Jabón líquido de manos": [
+    {"proveedor": "EcoLimpieza", "precio_unitario": 2.4, "tiempo_entrega_dias": 3}
+  ],
+  "Desinfectante multiusos": [
+    {"proveedor": "EcoLimpieza", "precio_unitario": 3.0, "tiempo_entrega_dias": 3}
+  ],
+  "Ambientador": [
+    {"proveedor": "Distribuidora Quito", "precio_unitario": 2.1, "tiempo_entrega_dias": 2}
+  ],
+  "Resma de papel A4": [
+    {"proveedor": "Papelería Central", "precio_unitario": 4.8, "tiempo_entrega_dias": 2}
+  ],
+  "Café/té de cortesía": [
+    {"proveedor": "Tostadores del Valle", "precio_unitario": 5.5, "tiempo_entrega_dias": 2}
+  ],
+  "Bolígrafos": [
+    {"proveedor": "Papelería Central", "precio_unitario": 0.3, "tiempo_entrega_dias": 2}
+  ],
+  "Desinfectante de manos (dispensador)": [
+    {"proveedor": "EcoLimpieza", "precio_unitario": 3.5, "tiempo_entrega_dias": 3}
+  ]
+}

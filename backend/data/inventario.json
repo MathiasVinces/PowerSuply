@@ -1,0 +1,26 @@
+{
+  "Cuarto": [
+    {"item": "Toallas de baño", "stock_actual": 8, "stock_minimo": 20, "unidad": "unidad"},
+    {"item": "Sábanas juego queen", "stock_actual": 5, "stock_minimo": 15, "unidad": "juego"},
+    {"item": "Perchas", "stock_actual": 40, "stock_minimo": 30, "unidad": "unidad"},
+    {"item": "Kit amenities (shampoo/jabón)", "stock_actual": 12, "stock_minimo": 50, "unidad": "kit"}
+  ],
+  "Cocina": [
+    {"item": "Detergente lavavajillas", "stock_actual": 2, "stock_minimo": 6, "unidad": "botella"},
+    {"item": "Bolsas de basura 50L", "stock_actual": 15, "stock_minimo": 40, "unidad": "unidad"},
+    {"item": "Café en grano", "stock_actual": 1, "stock_minimo": 5, "unidad": "kg"},
+    {"item": "Servilletas", "stock_actual": 60, "stock_minimo": 50, "unidad": "paquete"}
+  ],
+  "Baño": [
+    {"item": "Papel higiénico", "stock_actual": 10, "stock_minimo": 60, "unidad": "rollo"},
+    {"item": "Jabón líquido de manos", "stock_actual": 3, "stock_minimo": 10, "unidad": "botella"},
+    {"item": "Desinfectante multiusos", "stock_actual": 4, "stock_minimo": 8, "unidad": "botella"},
+    {"item": "Ambientador", "stock_actual": 9, "stock_minimo": 8, "unidad": "unidad"}
+  ],
+  "Sala/Recepción": [
+    {"item": "Resma de papel A4", "stock_actual": 1, "stock_minimo": 4, "unidad": "resma"},
+    {"item": "Café/té de cortesía", "stock_actual": 6, "stock_minimo": 15, "unidad": "caja"},
+    {"item": "Bolígrafos", "stock_actual": 25, "stock_minimo": 20, "unidad": "unidad"},
+    {"item": "Desinfectante de manos (dispensador)", "stock_actual": 2, "stock_minimo": 6, "unidad": "botella"}
+  ]
+}
