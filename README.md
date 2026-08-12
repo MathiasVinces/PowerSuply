@@ -108,3 +108,5 @@ python -m http.server 5500
 - [ ] Conectar `cotizar_proveedores` a APIs reales de distribuidores B2B.
 - [ ] Reemplazar la persistencia en JSON por una base de datos PostgreSQL.
 - [ ] Implementar notificaciones automáticas vía WhatsApp usando Twilio o Meta API cuando haya órdenes pendientes.
+
+PROXIMO
