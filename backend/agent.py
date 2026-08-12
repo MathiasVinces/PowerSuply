@@ -35,10 +35,11 @@ from tools import TOOLS_SCHEMA, TOOL_IMPLEMENTATIONS, SECCIONES_VALIDAS
 from dotenv import load_dotenv
 load_dotenv() 
 
+# Módulo optimizado para el agente
 # 2. Ahora sí, os.getenv encontrará las variables sin problema
 MODEL = "llama-3.3-70b-versatile"
 client = OpenAI(
-    api_key="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",
+    api_key="",
     base_url="https://api.groq.com/openai/v1"
 )
 
