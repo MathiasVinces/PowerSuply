@@ -15,7 +15,9 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
 from typing import Optional
-
+##CAMBIE EL API
+##SE CAMBIA
+##BLOQUEADO
 from models import AprobacionRequest, LogEntry
 from storage import cargar_inventario, cargar_ordenes, actualizar_orden, registrar_log, cargar_logs
 from agent import ejecutar_agente_para_todas_las_secciones
